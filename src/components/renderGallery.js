@@ -5,11 +5,11 @@ export function renderGallery(images) {
     images.forEach((src) => {
 
         let link_a = document.createElement('a');
-        link_a.href = src;
+        link_a.href = src.img;
         link_a.rel = 'noopener';
 
         let img_s = document.createElement('img');
-        img_s.src = src;
+        img_s.src = src.img;
         img_s.alt = '';
 
         link_a.appendChild(img_s);

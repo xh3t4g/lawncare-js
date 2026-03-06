@@ -45,8 +45,8 @@ HTML5 • CSS3 • JavaScript • Vite
 ## 🚀 Как запустить проект
 
 ```bash
-git clone https://github.com/xh3t4g/project_pokos_travi.git
-cd project_pokos_travi
+git clone https://github.com/xh3t4g/lawncare-js.git
+cd lawncare-js
 npm install
 npm run dev
 ```
@@ -66,4 +66,4 @@ npm run dev
  - SEO для локального поиска
  - Подключить аналитику
 
- 🌐 Демо - [Перейти на сайт проекта](https://xh3t4g.github.io/project_pokos_travi/)
+ 🌐 Демо - [Перейти на сайт проекта](https://xh3t4g.github.io/lawncare-js/)

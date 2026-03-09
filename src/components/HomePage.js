@@ -15,7 +15,7 @@ export function HomePage() {
 
             <div class="header_link_gallery">
                 <nav>  
-                    <a href="#" id="goGallery">Галерея ›</a>
+                    <a id="goGallery">Галерея ›</a>
                 </nav>
             </div>
         </div>

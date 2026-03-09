@@ -1,7 +1,6 @@
-import { render } from "./render";
-import { state } from "./state";
+import { handleRoute } from "./handleRoute";
 
-export function navigate(page) {
-    state.currentPage = page;
-    render();
+export function navigate(path) {
+    history.pushState({}, "", path)
+    handleRoute();
 }

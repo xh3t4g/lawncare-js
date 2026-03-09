@@ -11,7 +11,7 @@ export function GalleryPage() {
 
             <div class="header_link_kover">
                 <nav>  
-                    <a href="#" id="goHome">‹ Главное</a>
+                    <a id="goHome">‹ Главное</a>
                 </nav>
             </div>
         </div>

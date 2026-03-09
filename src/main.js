@@ -1,9 +1,9 @@
-import { navigate } from "./components/navigate";
-import { render } from "./components/render";
+import { handleRoute } from "./components/handleRoute";
 
 function init() {
-    navigate('home');
-    render();
+    window.addEventListener("DOMContentLoaded", handleRoute);
+
+    window.addEventListener("popstate", handleRoute)
 }
 
 init();

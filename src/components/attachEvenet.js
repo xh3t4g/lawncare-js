@@ -6,10 +6,10 @@ export function attachEvent() {
     const goGallety = document.querySelector('#goGallery');
 
     if (goHome) {
-        goHome.addEventListener('click', () => navigate("/home"))
+        goHome.addEventListener('click', () => navigate("home"))
     }
 
     if (goGallety) {
-        goGallety.addEventListener('click', () => navigate("/gallery"))
+        goGallety.addEventListener('click', () => navigate("gallery"))
     }
 }
